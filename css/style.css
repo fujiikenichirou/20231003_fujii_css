@@ -9,6 +9,7 @@
 .header-nav__list {
     display: flex;
     justify-content: flex-end;
+    margin-left: 40px;
 }
 
 .card__img img{
