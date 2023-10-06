@@ -3,6 +3,7 @@
     font-size: 20px;
     margin: 20px;
     justify-content: space-between;
+    color: rgb(0, 0, 142);
 }
 .header-nav {
     display: flex;
@@ -12,12 +13,19 @@
     display: flex;
     justify-content: flex-end;
     margin: 0px 30px;
+    text-decoration: none;
 }
 
-.card__img img{
+.card__img {
+    margin: auto;
     width: 50%;
 }
+.card-text {
+    font-size: 50px;
+}
 .blue-box {
-    width: 500px;
-    background-color: blue;
+    position: absolute;
+    background-color: rgb(0, 0, 142);
+    width: 800px;
+    height: 150px;
 }
