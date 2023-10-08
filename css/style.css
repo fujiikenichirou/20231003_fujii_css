@@ -1,3 +1,6 @@
+* {
+    box-sizing: border-box;
+}
 .header {
     display: flex;
     font-size: 20px;
@@ -15,10 +18,15 @@
     margin: 0px 30px;
     text-decoration: none;
 }
-
+.card {
+    position: relative;
+}
 .card__img {
-    margin: auto;
+    margin: 50px 0px 0px auto;
     width: 50%;
+}
+.card__img img {
+    width: 100%;
 }
 .card-text {
     font-size: 50px;
@@ -26,6 +34,6 @@
 .blue-box {
     position: absolute;
     background-color: rgb(0, 0, 142);
-    width: 800px;
+    width: 1100px;
     height: 150px;
 }
