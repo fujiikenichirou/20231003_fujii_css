@@ -25,12 +25,14 @@
 .card__img {
     margin: 50px 0px 0px auto;
     width: 50%;
+    z-index: 0;
 }
 .card__img img {
     width: 100%;
 }
 .card__text {
-    margin-top: 400px;
+    position: absolute;
+    bottom: 80px;
 }
 .card__text-ttl {
     font-size: 50px;
@@ -40,4 +42,5 @@
     background-color: rgb(0, 0, 142);
     width: 1100px;
     height: 150px;
+    z-index: -10;
 }
